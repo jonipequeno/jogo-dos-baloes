@@ -12,8 +12,8 @@ function criarBalao() {
   balao.setAttribute('class', 'balao');
 
   //Criar mapa da tela X e Y
-  let x = Math.floor(Math.random() * 600);
-  let y = Math.floor(Math.random() * 400);
+  let x = Math.floor(Math.random() * 1100);
+  let y = Math.floor(Math.random() * 500);
 
   //Setar estilo
   balao.setAttribute('style', 'left:' + x + 'px;top:' + y + 'px;');
